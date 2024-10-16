@@ -14,6 +14,12 @@ It has the following dependencies:
 It also reduires the following R package:
 - randomForest https://cran.r-project.org/web/packages/randomForest/index.html
 
+Download the pipeline with:
+```
+git clone https://github.com/JamesR-S/tNGS_gnomAD_classifier.git
+```
+
+
 The pipeline is run as follows:
 ```
 ./run_pipeline.sh -i <input_file_list> -o <output_prefix> -t <threads>
