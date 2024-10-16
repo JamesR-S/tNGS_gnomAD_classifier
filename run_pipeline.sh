@@ -34,6 +34,11 @@ SCRIPT_DIR=$(dirname $(readlink -f "$0"))
 export SCRIPT_DIR
 $SCRIPT_DIR/bin/check_dependencies.sh $SCRIPT_DIR
 
+if [ $? -ne 0 ]; then
+    echo "Dependency check failed. Exiting the script."
+    exit 1
+fi
+
 # Create necessary directories
 mkdir -p temp_files/pileup_files
 

@@ -74,7 +74,7 @@ else
 fi
 
 AIMS_FILE="$RESOURCES_DIR/Reference_AIMS_800k.geno"
-AIMS_PARTS=("$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.00" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.01" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.02" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.03" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.04" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.05" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.06")
+AIMS_PARTS=("$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.00" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.01" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.02" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.03" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.04" "$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.part.05")
 AIMS_CHECKSUM="$RESOURCES_DIR/Reference_AIMS_800k.geno.lrz.sha256"
 
 if [ ! -f "$AIMS_FILE" ]; then
