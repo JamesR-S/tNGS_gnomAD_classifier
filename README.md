@@ -10,6 +10,7 @@ It has the following dependencies:
 - samtools (v1.0.0+) https://github.com/samtools/samtools
 - GNU Parallel https://www.gnu.org/software/parallel/
 - lrzip (https://github.com/ckolivas/lrzip)
+- Python (v2.7.x)(LASER dependency) (https://www.python.org/downloads/release/python-272/)
   
 It also reduires the following R package:
 - randomForest https://cran.r-project.org/web/packages/randomForest/index.html

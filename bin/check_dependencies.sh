@@ -21,6 +21,9 @@ check_command "parallel"
 # Check if samtools is installed
 check_command "samtools"
 
+# Check if samtools is installed
+check_command "python2"
+
 # Check if required R packages are installed
 Rscript -e '
 required_packages <- c("randomForest")
