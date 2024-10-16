@@ -74,7 +74,7 @@ tail -q -n +2 $(find temp_files -name "*.coord") >> "${OUTPUT_PREFIX}.coord"
 echo ".coord Files Concatenated"
 echo "Step 5: Running Classification Model"
 
-Rscript ${SCRIPT_DIR}/bin/classification.rscript "${OUTPUT_PREFIX}.coord" 0.55 "${OUTPUT_PREFIX}.population.classification.txt"
+Rscript ${SCRIPT_DIR}/bin/classification.r "${OUTPUT_PREFIX}.coord" 0.55 "${OUTPUT_PREFIX}.population.classification.txt"
 
 echo "Processing Complete!"
 echo "Cleaning Up Temp Files"
